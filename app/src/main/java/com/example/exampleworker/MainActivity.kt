@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
             .setConstraints(constraints)
             .build()
 
-//        Возов Worker
+//        Вызов Worker
         binding.button.setOnClickListener {
             WorkManager
                 .getInstance(this)
